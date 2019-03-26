@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SGSWebkit_Example' do
+  pod 'SGSWebkit', :path => '../'
+
+  target 'SGSWebkit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
