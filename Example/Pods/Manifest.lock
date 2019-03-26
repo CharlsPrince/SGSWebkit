@@ -1,0 +1,16 @@
+PODS:
+  - SGSWebkit (0.1.0)
+
+DEPENDENCIES:
+  - SGSWebkit (from `../`)
+
+EXTERNAL SOURCES:
+  SGSWebkit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SGSWebkit: cd7ecc8caf9541ef7fefd7324a71dd494aca16a8
+
+PODFILE CHECKSUM: 192de5ac9ad67fe5b5017457373782e42e417906
+
+COCOAPODS: 1.5.3

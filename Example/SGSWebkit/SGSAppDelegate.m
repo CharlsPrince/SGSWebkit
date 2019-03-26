@@ -7,12 +7,18 @@
 //
 
 #import "SGSAppDelegate.h"
+#import "SGSViewController.h"
 
 @implementation SGSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[SGSViewController new]];
+    _window.rootViewController = nav;
+    
     return YES;
 }
 

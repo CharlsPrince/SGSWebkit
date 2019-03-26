@@ -1,0 +1,6 @@
+framework module SGSWebkit {
+  umbrella header "SGSWebkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
