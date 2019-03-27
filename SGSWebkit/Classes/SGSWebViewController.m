@@ -82,9 +82,7 @@ static int kEstimatedProgressContext;
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
 }
 
-- (void)dealloc {
-    NSLog(@"%@ is dealloc", self);
-}
+- (void)dealloc {}
 
 
 #pragma mark - Private Methods
@@ -187,7 +185,6 @@ static int kEstimatedProgressContext;
 
 // 网页重定向
 - (void)webView:(WKWebView *)webView didReceiveServerRedirectForProvisionalNavigation:(WKNavigation *)navigation {
-    debugLog(@"t重定向...");
 }
 
 // 决定响应策略

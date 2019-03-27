@@ -7,7 +7,7 @@
 //
 
 #import "SGSViewController.h"
-#import "SGSWebViewController.h"
+#import <SGSWebkit/SGSWebViewController.h>
 
 @interface SGSViewController ()<UITableViewDelegate, UITableViewDataSource>
 

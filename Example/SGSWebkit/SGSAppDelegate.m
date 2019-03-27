@@ -15,6 +15,7 @@
 {
     // Override point for customization after application launch.
     
+    // window
     _window = [[UIWindow alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[SGSViewController new]];
     _window.rootViewController = nav;

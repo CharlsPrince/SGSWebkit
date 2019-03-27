@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SGSWebViewController.h"
 
 FOUNDATION_EXPORT double SGSWebkitVersionNumber;
 FOUNDATION_EXPORT const unsigned char SGSWebkitVersionString[];

@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		05F1188D4514FD9661F7223844EF9951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		169C34900A2AF80F4EC787B3086A909D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1F2BD6720456BD29C1B33DAA82F93212 /* SGSWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A5120B8C7A90389633899C36F3B3D3 /* SGSWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26CCD9FD42A0C8408ACE24ACC4B5FBCE /* Pods-SGSWebkit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F51E0378F05557E25D711EE49DB5AD /* Pods-SGSWebkit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5AB35A718F2B7162858D2DF7D042BB /* SGSWebkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8359D9891FFBF5FF79E33CDC878D90 /* SGSWebkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4ED8423DC2DBFD79A8A3090EAA0306 /* SGSWebkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5739D62B52EAE6F1CB88966E146D1A /* SGSWebkit-dummy.m */; };
 		557436F02CE257A0CD6D4FA21E5396F6 /* Pods-SGSWebkit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A88C0409EAA3A7422D0291B243C895AB /* Pods-SGSWebkit_Tests-dummy.m */; };
-		729665185CDAA6DF163AF222DF942249 /* SGSWebkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BFB2E27642F7572050D50C7DF3715A /* SGSWebkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		954D8A7BB7EFFBEB322E9073253FDE0C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9455FEFC7120E094F1D94544781558EE /* ReplaceMe.m */; };
+		C1598094619D26BD827B9929ECDA82A9 /* SGSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B67E7BCCD9244B9552456D87AEB8DDE /* SGSWebViewController.m */; };
 		D02FC3287692D806E3B45CAFDA2A283D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E6A8739ADC0396FD643E3A4AEDEE9F93 /* Pods-SGSWebkit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9906E621C420D2F1DBA065428F78B1 /* Pods-SGSWebkit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD3ED81018DB2FADE8186B49F165248F /* Pods-SGSWebkit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E17B899907FB0F1EA2BACF1ED1DC8454 /* Pods-SGSWebkit_Example-dummy.m */; };
-		FDB39EA765D90A2C41E1BA2D404932C7 /* SGSWebkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52469EB444DE5835CAA163A24F2F9824 /* SGSWebkit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,37 +40,38 @@
 /* Begin PBXFileReference section */
 		0131D8844FFB5C68B5617D0F08A6D4FA /* Pods-SGSWebkit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSWebkit_Example-resources.sh"; sourceTree = "<group>"; };
 		0340E628E3F947C109A9E0CC08FB895E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B67E7BCCD9244B9552456D87AEB8DDE /* SGSWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGSWebViewController.m; path = SGSWebkit/Classes/SGSWebViewController.m; sourceTree = "<group>"; };
 		0D61C78C6779F32EACA0EAAB7ADD984F /* Pods-SGSWebkit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSWebkit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1197D93BE6803EBA5077A3834579162D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2627121BFAFF03C89F462BFC40C047DD /* Pods_SGSWebkit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGSWebkit_Example.framework; path = "Pods-SGSWebkit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA88AE19AFD6BCA7DF260A7F1DAAA98 /* Pods-SGSWebkit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSWebkit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3122271565CB009C77C251AE52F0218A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		31BB8F72ACCEDEC128A6E88126801A0C /* SGSWebkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGSWebkit.modulemap; sourceTree = "<group>"; };
 		48CB8430B9DADB984FF7072ACF1E9694 /* Pods-SGSWebkit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGSWebkit_Example.modulemap"; sourceTree = "<group>"; };
 		48E95DAB83181C7F5025C42CA7324C0A /* Pods-SGSWebkit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSWebkit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		49C2F688E5446BB33950E077D7C37EAB /* SGSWebkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSWebkit-prefix.pch"; sourceTree = "<group>"; };
-		4DCB7DBCFA87066047A8B2D4090E0516 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		52469EB444DE5835CAA163A24F2F9824 /* SGSWebkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSWebkit-dummy.m"; sourceTree = "<group>"; };
+		4B5739D62B52EAE6F1CB88966E146D1A /* SGSWebkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSWebkit-dummy.m"; sourceTree = "<group>"; };
 		5389A29F83F2CC805778F484A09F6A56 /* Pods-SGSWebkit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSWebkit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		55BB63970FB8F221EFBF4A762190E404 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0314131818A81DAA322DB43015D4D6 /* SGSWebkit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SGSWebkit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70E8B05616CA89B5795C1EF5066928D8 /* SGSWebkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGSWebkit.framework; path = SGSWebkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78B10C1DD2437F5F0359541128654AEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7A9906E621C420D2F1DBA065428F78B1 /* Pods-SGSWebkit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGSWebkit_Example-umbrella.h"; sourceTree = "<group>"; };
-		836579E0CC416E71FB3EB8CB481A783E /* SGSWebkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGSWebkit.modulemap; sourceTree = "<group>"; };
 		8663F4725A23A9481DA1CADE3E09C597 /* Pods_SGSWebkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGSWebkit_Tests.framework; path = "Pods-SGSWebkit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CEB63ECB43C8EF417DD4C00F802107 /* SGSWebkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSWebkit.xcconfig; sourceTree = "<group>"; };
 		8AA0F89B478B9B1A0706C6F2F53CC354 /* Pods-SGSWebkit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSWebkit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9455FEFC7120E094F1D94544781558EE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SGSWebkit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		94670AD9953585D7D455FA325FC26A01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9607AD4D210C403231E3FD9B1EC34B06 /* Pods-SGSWebkit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSWebkit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		97320CAC2992C6C8CFCA7C048380EF86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A5120B8C7A90389633899C36F3B3D3 /* SGSWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSWebViewController.h; path = SGSWebkit/Classes/SGSWebViewController.h; sourceTree = "<group>"; };
+		A1C474741632D38D479B006D3D35C9BC /* SGSWebkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSWebkit-prefix.pch"; sourceTree = "<group>"; };
 		A88C0409EAA3A7422D0291B243C895AB /* Pods-SGSWebkit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSWebkit_Tests-dummy.m"; sourceTree = "<group>"; };
-		AE8CB6FF233EC77BE2DA0CD2C4F36A2C /* SGSWebkit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SGSWebkit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC8359D9891FFBF5FF79E33CDC878D90 /* SGSWebkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSWebkit-umbrella.h"; sourceTree = "<group>"; };
 		C5D8BB405AA9D0B2536719A7F69BE229 /* Pods-SGSWebkit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSWebkit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D0D8FE9D16131950261474534DDEA58E /* Pods-SGSWebkit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSWebkit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D1D1587EBDB26F0D03A93140F738A599 /* Pods-SGSWebkit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGSWebkit_Tests.modulemap"; sourceTree = "<group>"; };
-		D8BFB2E27642F7572050D50C7DF3715A /* SGSWebkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSWebkit-umbrella.h"; sourceTree = "<group>"; };
 		DCDA7674C5DC824350C2D8BC6BE9520C /* Pods-SGSWebkit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSWebkit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DD1214928025196871C78F51AE974527 /* Pods-SGSWebkit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSWebkit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E17B899907FB0F1EA2BACF1ED1DC8454 /* Pods-SGSWebkit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSWebkit_Example-dummy.m"; sourceTree = "<group>"; };
-		EC17E335ED3F2A2A19140C77CE9956AA /* SGSWebkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSWebkit.xcconfig; sourceTree = "<group>"; };
 		F17DFF47CED77CE036E71FC5779654CC /* Pods-SGSWebkit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSWebkit_Tests-resources.sh"; sourceTree = "<group>"; };
 		F9F51E0378F05557E25D711EE49DB5AD /* Pods-SGSWebkit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGSWebkit_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,14 +104,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4069F6154CE3BE5D9055E04D6A185418 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8B0AF1985FE25D72B9C21E0890471536 /* SGSWebkit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4069F6154CE3BE5D9055E04D6A185418 /* Development Pods */,
+				E5401408E7DB8110D95A351FFCBF3470 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				9E863F48D2B581E96C6E7FA5C0C53978 /* Products */,
 				804889202A12BC78E68C4D1C4614B0FB /* Targets Support Files */,
@@ -136,17 +130,6 @@
 				DEF6061F2E7379DDFF3A3605A98E94AB /* Pods-SGSWebkit_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8B0AF1985FE25D72B9C21E0890471536 /* SGSWebkit */ = {
-			isa = PBXGroup;
-			children = (
-				9455FEFC7120E094F1D94544781558EE /* ReplaceMe.m */,
-				EF7A2E247ED2088EA4CA7B9505CF4C9D /* Pod */,
-				C24DFCCD80C0F13EB9F3F25C5110C8A0 /* Support Files */,
-			);
-			name = SGSWebkit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9E863F48D2B581E96C6E7FA5C0C53978 /* Products */ = {
@@ -185,18 +168,14 @@
 			path = "Target Support Files/Pods-SGSWebkit_Example";
 			sourceTree = "<group>";
 		};
-		C24DFCCD80C0F13EB9F3F25C5110C8A0 /* Support Files */ = {
+		D7B2A78CADD93BB1F2CE7298F7900F60 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				97320CAC2992C6C8CFCA7C048380EF86 /* Info.plist */,
-				836579E0CC416E71FB3EB8CB481A783E /* SGSWebkit.modulemap */,
-				EC17E335ED3F2A2A19140C77CE9956AA /* SGSWebkit.xcconfig */,
-				52469EB444DE5835CAA163A24F2F9824 /* SGSWebkit-dummy.m */,
-				49C2F688E5446BB33950E077D7C37EAB /* SGSWebkit-prefix.pch */,
-				D8BFB2E27642F7572050D50C7DF3715A /* SGSWebkit-umbrella.h */,
+				3122271565CB009C77C251AE52F0218A /* LICENSE */,
+				1197D93BE6803EBA5077A3834579162D /* README.md */,
+				5A0314131818A81DAA322DB43015D4D6 /* SGSWebkit.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SGSWebkit";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DEF6061F2E7379DDFF3A3605A98E94AB /* Pods-SGSWebkit_Tests */ = {
@@ -217,32 +196,57 @@
 			path = "Target Support Files/Pods-SGSWebkit_Tests";
 			sourceTree = "<group>";
 		};
-		EF7A2E247ED2088EA4CA7B9505CF4C9D /* Pod */ = {
+		E5401408E7DB8110D95A351FFCBF3470 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4DCB7DBCFA87066047A8B2D4090E0516 /* LICENSE */,
-				78B10C1DD2437F5F0359541128654AEC /* README.md */,
-				AE8CB6FF233EC77BE2DA0CD2C4F36A2C /* SGSWebkit.podspec */,
+				E98FA48282825CE8E30DF9BB10F67638 /* SGSWebkit */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E98FA48282825CE8E30DF9BB10F67638 /* SGSWebkit */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5120B8C7A90389633899C36F3B3D3 /* SGSWebViewController.h */,
+				0B67E7BCCD9244B9552456D87AEB8DDE /* SGSWebViewController.m */,
+				D7B2A78CADD93BB1F2CE7298F7900F60 /* Pod */,
+				FAFD31C1934D0F9F77D824B74FB84228 /* Support Files */,
+			);
+			name = SGSWebkit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FAFD31C1934D0F9F77D824B74FB84228 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94670AD9953585D7D455FA325FC26A01 /* Info.plist */,
+				31BB8F72ACCEDEC128A6E88126801A0C /* SGSWebkit.modulemap */,
+				88CEB63ECB43C8EF417DD4C00F802107 /* SGSWebkit.xcconfig */,
+				4B5739D62B52EAE6F1CB88966E146D1A /* SGSWebkit-dummy.m */,
+				A1C474741632D38D479B006D3D35C9BC /* SGSWebkit-prefix.pch */,
+				AC8359D9891FFBF5FF79E33CDC878D90 /* SGSWebkit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SGSWebkit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		40A946B81C6CC02501A1978B6A02B4CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5AB35A718F2B7162858D2DF7D042BB /* SGSWebkit-umbrella.h in Headers */,
+				1F2BD6720456BD29C1B33DAA82F93212 /* SGSWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		792DA19E139CCB3453C3AB5969C156A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				26CCD9FD42A0C8408ACE24ACC4B5FBCE /* Pods-SGSWebkit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD47191E9179C669C7EC0426CB8CC931 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				729665185CDAA6DF163AF222DF942249 /* SGSWebkit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +283,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2FA960757DD5610B034C20D2D48018B /* Build configuration list for PBXNativeTarget "SGSWebkit" */;
 			buildPhases = (
-				ED9011558BF87AC562B30B0FA662ED4A /* Sources */,
+				7AE58B7A4DA4936CF7B41B8F7C7D1EFE /* Sources */,
 				6BE56C69201288A15EA2BEC58D4B0F13 /* Frameworks */,
-				BD47191E9179C669C7EC0426CB8CC931 /* Headers */,
+				40A946B81C6CC02501A1978B6A02B4CF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -347,20 +351,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AE58B7A4DA4936CF7B41B8F7C7D1EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4ED8423DC2DBFD79A8A3090EAA0306 /* SGSWebkit-dummy.m in Sources */,
+				C1598094619D26BD827B9929ECDA82A9 /* SGSWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED7DFFFF979D3F7689D825BF5FE2E30A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FD3ED81018DB2FADE8186B49F165248F /* Pods-SGSWebkit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED9011558BF87AC562B30B0FA662ED4A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				954D8A7BB7EFFBEB322E9073253FDE0C /* ReplaceMe.m in Sources */,
-				FDB39EA765D90A2C41E1BA2D404932C7 /* SGSWebkit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +484,7 @@
 		};
 		5CEB4D3B493CF6416B0B1FED4B101795 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC17E335ED3F2A2A19140C77CE9956AA /* SGSWebkit.xcconfig */;
+			baseConfigurationReference = 88CEB63ECB43C8EF417DD4C00F802107 /* SGSWebkit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -544,7 +548,7 @@
 		};
 		BEA30C07EE0BF8E32B5E64857BC0D8EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC17E335ED3F2A2A19140C77CE9956AA /* SGSWebkit.xcconfig */;
+			baseConfigurationReference = 88CEB63ECB43C8EF417DD4C00F802107 /* SGSWebkit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

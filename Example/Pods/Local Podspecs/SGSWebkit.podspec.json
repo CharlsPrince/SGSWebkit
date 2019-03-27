@@ -1,22 +1,23 @@
 {
   "name": "SGSWebkit",
   "version": "0.1.0",
-  "summary": "A short description of SGSWebkit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/961629701@qq.com/SGSWebkit",
+  "summary": "网页加载器",
+  "description": "基于 WKWebKit 的网页加载器",
+  "homepage": "https://github.com/CharlsPrince/SGSWebkit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "961629701@qq.com": "961629701@qq.com"
+    "CharlsPrince": "961629701@qq.com"
   },
   "source": {
-    "git": "https://github.com/961629701@qq.com/SGSWebkit.git",
+    "git": "https://github.com/CharlsPrince/SGSWebkit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SGSWebkit/Classes/**/*"
+  "source_files": "SGSWebkit/Classes/**/*.{h,m}",
+  "public_header_files": "SGSWebkit/Classes/**/*.{h}"
 }
